@@ -7,7 +7,7 @@ const app= express()
 app.get('/',(request, response)=>{
     response.send("Hello GET, i'm Miryam")
 })
-
+/*los navegadores solo soportan GET para utilizar estos metodos se necesita un emulador
 app.post('/',(request, response)=>{
     response.send("Hello POST, i'm Miryam")
 })
@@ -22,7 +22,7 @@ app.patch('/',(request, response)=>{
 
 app.delete('/',(request, response)=>{
     response.send("Hello DELETE, i'm Miryam")
-})
+})*/
 
 /**
  * FUNCIONALIDAD 
